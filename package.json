@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
+    "cypress": "cypress open",
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.10.0",
+    "cypress": "^4.5.0",
     "nodemon": "^1.18.11"
   }
 }
