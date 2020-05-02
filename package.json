@@ -1,0 +1,40 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+<<<<<<< HEAD
+    "cypress": "cypress open",
+=======
+>>>>>>> 0c4b609e5902be3329115d1522501787a783be38
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "dean",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "create-react-app": "^2.1.8",
+    "express": "^4.16.4",
+    "font-awesome": "^4.7.0",
+    "mongoose": "^5.5.1",
+    "react-image-lightbox": "^5.1.0",
+    "react-redux": "^7.0.2",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.0",
+<<<<<<< HEAD
+    "cypress": "^4.5.0",
+=======
+>>>>>>> 0c4b609e5902be3329115d1522501787a783be38
+    "nodemon": "^1.18.11"
+  }
+}
